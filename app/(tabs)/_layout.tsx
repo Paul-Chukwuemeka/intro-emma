@@ -1,9 +1,9 @@
 import { Tabs } from "expo-router";
-import { Ionicons,FontAwesome6 } from "@expo/vector-icons";
+import { Ionicons, FontAwesome6 } from "@expo/vector-icons";
 
 export default function RootLayout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs screenOptions={{ headerShown: false, tabBarPosition: "bottom" }}>
       <Tabs.Screen
         name={"index"}
         options={{
